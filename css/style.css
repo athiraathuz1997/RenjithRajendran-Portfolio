@@ -73,6 +73,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 	-moz-transform: translateX(0px);
 	transform: translateX(0px);
 }
+
 /*-- //nav-effect --*/
 .header {
     border-bottom: 1px solid #EAEAEA;
@@ -451,6 +452,7 @@ p.w3ls_head_para {
   display: inline-block;
   position: relative;
   text-align: center;
+  margin-top: 2rem;
 }
 h3.tittle:after, h3.tittle:before {
     border: 4px double #c2c2c2;
@@ -495,6 +497,7 @@ h3.tittle:after, h3.tittle:before {
 }
 h3.w3l_head.two {
     color: #fff;
+	margin-top: -5rem;
 }
 .list-gds  h4 {
     font-size:2em;
@@ -1037,6 +1040,7 @@ p.counter {
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
+
 /*-- //to-top --*/
 /*-- start-responsive-design --*/
 @media (max-width:1440px){
@@ -1044,7 +1048,7 @@ p.counter {
 		min-height: 678px;
 	}
 	.education-w3l {
-    padding: 6em 4em;
+    padding: 3em 4em;
 	}
 	.skills {
        min-height: 708px;
